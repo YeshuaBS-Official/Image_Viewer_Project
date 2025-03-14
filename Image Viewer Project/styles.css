@@ -1,0 +1,58 @@
+body {
+    background-color:#F7E0D7;
+}
+#title {
+  font-family: "Lemon", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+
+#gestureBox {
+    font-family: "Kavoon", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    border: 55px solid lightSalmon;
+    width: 300px;
+    height: 300px;
+    margin: 40px auto;
+    margin-bottom: 30px;
+    background-color: ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    box-shadow: 15px 10px;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#title{
+    margin: 0;
+    background-color: #F5A55F;
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+  
+}
+
+#output{
+  background-color:#F58A60;
+    margin: 20px auto;
+    width: 400px;
+    padding: 60px;
+}
+@media (max-width: 600px) {
+    #gestureBox {
+        width: 90%;
+        height: 250px;
+    }
+}
+
