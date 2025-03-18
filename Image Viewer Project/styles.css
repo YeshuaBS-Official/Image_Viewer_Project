@@ -1,30 +1,33 @@
 body {
     background-color:#F7E0D7;
-}
-#title {
-  font-family: "Lemon", serif;
-  font-weight: 400;
-  font-style: normal;
-  
+    margin: 0;
 }
 
+#title {    
+    font-family: "Lemon", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+
+#borderBox {
+    box-shadow: 15px 10px;
+    background-color: ghostwhite;
+}
 
 #gestureBox {
     font-family: "Kavoon", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 35px;
-    border: 55px solid lightSalmon;
-    width: 300px;
-    height: 300px;
-    margin: 40px auto;
-    margin-bottom: 30px;
     background-color: ghostwhite;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    box-shadow: 15px 10px;
+    object-fit: cover;
+    background-size:cover;
 
 }
 
@@ -43,16 +46,48 @@ body {
   
 }
 
-#output{
-  background-color:#F58A60;
-    margin: 20px auto;
-    width: 400px;
-    padding: 60px;
+#footer{
+    background-color:#F58A60;
+    margin: 0;
+    padding: 0;
 }
+
+
+#output{
+    margin: 0;
+}
+
 @media (max-width: 600px) {
-    #gestureBox {
-        width: 90%;
-        height: 250px;
+    #title {
+        height: 20vh;
+        width: 100vw;
+        padding: 0;
+    }
+
+    #titleText{
+        margin: 0;
+        padding-top: 12vh;
+    }
+
+    #content {
+        display: block;
+        margin: 0;
+        padding: 0;
+        height: 65vh;
+        width: 100vw;
+    }
+
+    #borderBox {
+        width: 300px;
+        height: 400px;
+        margin: auto;
+        margin-top: 200px;
+        
+    }
+
+    #footer {
+        width: 100vw;
+        height: 15vh;
     }
 }
 
